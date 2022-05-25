@@ -32,7 +32,7 @@ hello world again
 
 4. Each job is run within a KVS namespace. `FLUX_KVS_NAMESPACE` is set, which is automatically read and used by the KVS operations in the handle. To take a look at the job's KVS, convert its job ID to KVS:
 
-`flux job id --from=dec --to=kvs 6705031151616`
+`flux job id --to=kvs 6705031151616`
 
 ```
 job.0000.0619.2300.0000
