@@ -25,7 +25,7 @@ $ cd flux-workflow-examples/async-bulk-job-submit
 
 1. Allocate three nodes from a resource manager:
 
-`salloc -N3 -ppdebug`
+`salloc -N3 -p pdebug`
 
 2. Make a **jobs** directory:
 
